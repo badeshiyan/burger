@@ -4,11 +4,17 @@
 
 Mmmmmmmmmmm....Buurrggggerrrrrssssss!!!! --Homer Simpson voice--
 
-For this assignment, the reader will find a hamburger logger application that utilizes previously learned concepts including MySQL, Node and Express. Handlebars and a homemade ORM are new concepts that were implemented as well. Handlebars is used to generate the app's HTML, while Node and MySQL is used to query and route data to the burger app.
+For this assignment, the reader will find a hamburger logger application that utilizes previously learned concepts including MySQL, Node and Express. Handlebars and a homemade ORM are new concepts that were implemented as well. Handlebars is used to generate the app's HTML, while Node and MySQL is used to query and route data to the burger app. In the app, the user is able to type in a burger of choice and the burger will be added to a list of 'eaten' burgers (seen under 'Burgers that are delicious!' list on the app). Users can also 'devour' a burger - each burger has a devour button next to it. (this action moves the selected burger from the eaten list to the devoured list).
+
+Bonus steps could be to add a function in which the user can delete a selected burger.
 
 Please find additional information regarding this project below. Thanks so much!
 
-## Screenshot of Generated Application
+## Deployed Application Link
+
+Please find the deployed webpage link here: https://infinite-basin-56194.herokuapp.com/
+
+## Screenshots of Generated Application
 
 ![Adeshiyan Burger Screenshot](./public/assets/burger1.png)
 ![Adeshiyan Burger Screenshot](./public/assets/burger2.png)
@@ -18,13 +24,15 @@ Please find additional information regarding this project below. Thanks so much!
 
 1. Node.js: https://nodejs.dev/learn/the-nodejs-fs-module
 
-2. NPM - Inquirer: https://www.npmjs.com/package/inquirer#prompt
+2. Node.js: https://expressjs.com/
 
-3. MySQL: https://www.mysqltutorial.org/mysql-self-join/
+3. NPM - Handlebars: https://handlebarsjs.com/
 
-4. Youtube: https://youtu.be/msvdn95x9OM
+4. MySQL: https://www.mysqltutorial.org
 
-5. MYSQL Heroku Deployment Guide: (../../04-Important/MySQLHerokuDeploymentProcess.pdf)
+5. Eat-Da-Burger Reference Video: https://youtu.be/msvdn95x9OM
+
+6. ![MYSQL Heroku Deployment Guide](./public/assets/MySQLHerokuDeploymentProcess.pdf)
 
 ## MIT License
 
